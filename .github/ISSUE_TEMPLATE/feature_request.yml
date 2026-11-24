@@ -1,0 +1,17 @@
+name: Özellik önerisi
+description: İhtiyacınızı ve önerdiğiniz iyileştirmeyi anlatın.
+title: "[Öneri]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Hangi ihtiyacı karşılıyor?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Önerdiğiniz çözüm
+    validations:
+      required: true
