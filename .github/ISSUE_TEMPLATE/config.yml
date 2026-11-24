@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Kurulum ve lisans desteği
+    url: https://kayit.ongo.com.tr/hesabim/destek
+    about: Hesabınızdan özel destek talebi oluşturun.
+  - name: Görsel kullanım rehberleri
+    url: https://kayit.ongo.com.tr/rehber
+    about: Web sitesi, müşteri paneli ve yönetim ekranlarını inceleyin.
