@@ -1,0 +1,33 @@
+name: Hata bildirimi
+description: Tekrar üretilebilir bir ONGO Ultimate sorununu bildirin.
+title: "[Hata]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Parola, API anahtarı, tam lisans kodu veya müşteri verisi paylaşmayın. Güvenlik sorunlarını özel destek talebiyle iletin.
+  - type: input
+    id: version
+    attributes:
+      label: ONGO ve PHP sürümü
+      placeholder: ONGO 2026.11.23-r3 / PHP 8.2
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Etkilenen sayfa veya bölüm
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Tekrar üretme adımları
+      description: İşlem sırasını ve beklenen/gerçek davranışı yazın.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Ek bilgi
+      description: Kişisel veri içermeyen hata kodu veya ekran görüntüsü ekleyebilirsiniz.
